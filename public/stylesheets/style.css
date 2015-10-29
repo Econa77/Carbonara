@@ -1,8 +1,34 @@
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+} */
+
+/* .container {
+  margin: auto;
+  width: 1024px;
+} */
+
+/* global header */
+.global-header {
+  background: #3c90c9;
+  height: 50px;
+  width: 100%;
 }
+
+.global-header > .container {
+  position: relative;
+}
+
+.btn-upload {
+  bottom: 0;
+  height: 40px;
+  margin: auto 0;
+  top: 0;
+  right: 30px;
+  position: absolute;
+}
+
