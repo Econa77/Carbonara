@@ -1,0 +1,24 @@
+{
+  "name": "carbonara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Econa77/Carbonara.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Econa77/Carbonara/issues"
+  },
+  "homepage": "https://github.com/Econa77/Carbonara#readme"
+}
