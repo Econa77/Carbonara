@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    - var n = 10;
+    while n--
+      .card.pure-u-1-2.pure-g--gutter.pure-g
+        .app-icon.pure-u-1-5
+          .icon
+        .app-info.pure-u-4-5
+          .app-title
+            h2 これはタイトル
+          .app-description
+            | これは説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明

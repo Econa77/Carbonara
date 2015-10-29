@@ -1,0 +1,21 @@
+{
+  "name": "Carbonara",
+  "description": "",
+  "main": "",
+  "authors": [
+    "abouthiroppy <yuta_hiroto@dwango.co.jp>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Econa77/Carbonara",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}

@@ -1,8 +1,63 @@
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+} */
+
+body {
+  box-sizing: border-box;
+}
+
+.pure-g .pure-g--gutter > div > * {
+    margin: 0 0.5rem;
+}
+
+.container {
+  margin: auto;
+  max-width: 1024px;
+} 
+
+/* global header */
+.global-header {
+  background: #3c90c9;
+  height: 50px;
+  width: 100%;
+}
+
+.global-header > .container {
+  position: relative;
+}
+
+.btn-upload {
+  bottom: 0;
+  height: 40px;
+  margin: auto 0;
+  top: 0;
+  right: 30px;
+  position: absolute;
+}
+
+/* card */
+.card {
+  /* background: #aaa; */
+  height: 100px;
+  margin: 15px 0;
+}
+
+.card .app-icon > .icon {
+  background: url('http://vignette2.wikia.nocookie.net/k-on/images/a/a5/Personal_Angel_of_Anarchy_Azusa.jpg/revision/latest?cb=20091029082512');
+  background-size: contain;
+  height: 60px;
+  margin: auto;
+  width: 60px;
+}
+
+.card > .app-info {
+}
+
+.card > .app-info > .app-title > h2 {
+  margin: 0;
 }
